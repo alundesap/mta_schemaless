@@ -1,0 +1,3 @@
+Apollo Global Mgmt,apollo,APOLLO
+Blackstone,blackstone,BLACKSTONE
+The Carlyle Group,carlyle,CARLYLE
