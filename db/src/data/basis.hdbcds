@@ -1,0 +1,29 @@
+namespace mta_schemaless.db.data;
+
+context basis {
+	type KeyType : Integer;
+	entity contribution {
+		contributionId: Integer generated always as identity ( start with 1 increment by 1 );
+		partner: String (32) not null;
+		amount: Decimal( 9, 2 ) not null;
+		created: UTCTimestamp not null;
+	};
+	entity withdrawl {
+		withdrawlId: Integer generated always as identity ( start with 1 increment by 1 );
+		partner: String (32) not null;
+		amount: Decimal( 9, 2 ) not null;
+		created: UTCTimestamp not null;
+	};
+	entity income {
+		incomeId: Integer generated always as identity ( start with 1 increment by 1 );
+		partner: String (32) not null;
+		amount: Decimal( 9, 2 ) not null;
+		created: UTCTimestamp not null;
+	};
+	entity loss {
+		lossId: Integer generated always as identity ( start with 1 increment by 1 );
+		partner: String (32) not null;
+		amount: Decimal( 9, 2 ) not null;
+		created: UTCTimestamp not null;
+	};
+};
