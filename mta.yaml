@@ -1,0 +1,29 @@
+ID: mta_schemaless
+_schema-version: '2.0'
+version: 0.0.1
+
+modules:
+ - name: db
+   type: hdb
+   path: db
+   requires:
+    - name: hdi_db
+
+
+ - name: tax_year_2000
+   type: hdb
+   path: tax_year_2000
+   requires:
+    - name: hdi_tax_year_2000
+
+resources:
+ - name: hdi_db
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container
+
+ - name: hdi_tax_year_2000
+   properties:
+      hdi-container-name_2: ${service-name}
+   type: com.sap.xs.hdi-container
+

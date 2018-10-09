@@ -1,0 +1,29 @@
+{
+	"format_version": 1,
+	"imports":
+	[
+        {
+            "target_table": "mta_schemaless.db.data::diabetes.subject",
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "mta_schemaless.db.data::diabetes.csv",
+                "has_header": true
+            },
+            "import_settings": {
+                "import_columns": [
+					"AGE",
+					"SEX",
+					"BMI",
+					"BP",
+					"S1",
+					"S2",
+					"S3",
+					"S4",
+					"S5",
+					"S6",
+					"Y"
+                ]
+            }
+        }
+	]
+}

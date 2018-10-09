@@ -1,0 +1,19 @@
+namespace mta_schemaless.db.data;
+
+context diabetes {
+	type KeyType : Integer;
+	entity subject {
+		subjectId: Integer generated always as identity ( start with 1 increment by 1 );
+		AGE: Integer not null;
+		SEX: Integer not null;
+		BMI: BinaryFloat not null;
+		BP: BinaryFloat not null;
+		S1: BinaryFloat not null;
+		S2: BinaryFloat not null;
+		S3: BinaryFloat not null;
+		S4: BinaryFloat not null;
+		S5: BinaryFloat not null;
+		S6: BinaryFloat not null;
+		Y: Integer not null;
+	};
+};

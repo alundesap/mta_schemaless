@@ -1,0 +1,8 @@
+{
+	"role":{
+		"name": "default_access_role",
+		"schema_roles": [{
+		 "names": ["mta_schemaless.db.roles::mta_schemaless_admin"]
+		}]
+	}
+}

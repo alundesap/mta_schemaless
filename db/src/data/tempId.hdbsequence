@@ -1,0 +1,5 @@
+SEQUENCE "mta_schemaless.db.data::tempId"
+INCREMENT BY 1
+START WITH 2
+RESET BY
+SELECT IFNULL(MAX("tempId"), 0) + 1 FROM "mta_schemaless.db.data::sensors.temp"
