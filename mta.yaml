@@ -16,6 +16,17 @@ modules:
    requires:
     - name: hdi_tax_year_2000
 
+
+ - name: xsjs
+   type: nodejs
+   path: xsjs
+   requires:
+    - name: hdi_db
+   provides:
+    - name: xsjs_api
+      properties:
+         url: ${default-url}
+
 resources:
  - name: hdi_db
    properties:
