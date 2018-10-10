@@ -1,0 +1,7 @@
+service {
+	"mta_schemaless.db.data::sensors.temp" as "temp" 
+		create using "inc:tempCreate.xsjslib::tempCreate"
+	;
+	"mta_schemaless.db.data::sensors.tempNoTimestamp" as "tempNoTS" keys generate local "ID"
+	;
+}
