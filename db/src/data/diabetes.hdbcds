@@ -3,7 +3,7 @@ namespace mta_schemaless.db.data;
 context diabetes {
 	type KeyType : Integer;
 	entity subject {
-		subjectId: Integer generated always as identity ( start with 1 increment by 1 );
+		key subjectId: Integer generated always as identity ( start with 1 increment by 1 );
 		AGE: Integer not null;
 		SEX: Integer not null;
 		BMI: BinaryFloat not null;

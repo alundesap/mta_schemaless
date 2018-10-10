@@ -1,0 +1,7 @@
+service {
+	"mta_schemaless.db.data::diabetes.subject" as "subject" 
+								create forbidden 
+								update forbidden
+								delete forbidden
+	;
+}
