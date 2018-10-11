@@ -23,10 +23,14 @@ while read clientline; do
   echo "User: $sqluser"
   echo ""
 
+  xs a | grep STARTED | cut -d ' ' -f 1 | while read -r line ; do echo "Stopping $line"; xs stop $line ; done
+
   xs delete-space $spacename -f --quiet
 
   echo "Removing SQL User."
-  hdbsql -i 90 -n localhost:39013 -u SYSTEM -p $password "DROP USER $sqluser RESTRICT"
+  hdbsql -i 90 -n localhost:39013 -u SYSTEM -p $password "DROP USER $sqluser CASCADE"
+
+  hdbsql -i 90 -n localhost:39013 -u SYSTEM -p $password "DROP SCHEMA $sqluser_1999"
 
   echo ""
 done < $clientfile
