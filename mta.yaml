@@ -38,3 +38,8 @@ resources:
       hdi-container-name_2: ${service-name}
    type: com.sap.xs.hdi-container
 
+  - name: ups_tax_year_1999
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-name: TAX_YEAR_1999
+
