@@ -7,3 +7,6 @@
 [Migrating XS Classic Applications to XS Advanced Model](https://help.sap.com/viewer/4505d0bdaf4948449b7f7379d24d0f0d/2.0.03/en-US/efb53735dd594f91a0e70249e482a6ec.html)
 
 [Synonyms in HANA XS Advanced, Accessing Objects in an External Schema](https://blogs.sap.com/2017/01/07/synonyms-in-hana-xs-advanced-accessing-objects-in-an-external-schema/)
+
+[CDS Primitive Data Types](https://help.sap.com/viewer/09b6623836854766b682356393c6c416/2.0.03/en-US/cf394efd3fb4400f9c09d10315028515.html)
+
