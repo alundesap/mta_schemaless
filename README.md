@@ -4,6 +4,8 @@
 
 [Deployment-Infrastructure Services in XS Advanced](https://help.sap.com/viewer/4505d0bdaf4948449b7f7379d24d0f0d/2.0.03/en-US/ebf0aa26958443f58f86b862056862d4.html)
 
+[Creating the Persistence Model in Core Data Services](https://help.sap.com/viewer/09b6623836854766b682356393c6c416/2.0.03/en-US/b523afd66f5a40469573d9c47d7af831.html)
+
 [HDI Artifact Types and Build Plug-ins Reference](https://help.sap.com/viewer/4505d0bdaf4948449b7f7379d24d0f0d/2.0.03/en-US/9789224788a34d93a86080cab993575c.html)
 
 [Create a CDS Extension](https://help.sap.com/viewer/09b6623836854766b682356393c6c416/2.0.03/en-US/cf6b831003144670b77322b5605ec08f.html)
