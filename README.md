@@ -16,3 +16,4 @@
 
 [CDS Primitive Data Types](https://help.sap.com/viewer/09b6623836854766b682356393c6c416/2.0.03/en-US/cf394efd3fb4400f9c09d10315028515.html)
 
+[The MTA Development Descriptor](https://help.sap.com/viewer/DRAFT/4505d0bdaf4948449b7f7379d24d0f0d/2.0.03/en-US/4486ada1af824aadaf56baebc93d0256.html)
