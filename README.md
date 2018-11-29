@@ -4,6 +4,8 @@
 
 [Deployment-Infrastructure Services in XS Advanced](https://help.sap.com/viewer/4505d0bdaf4948449b7f7379d24d0f0d/2.0.03/en-US/ebf0aa26958443f58f86b862056862d4.html)
 
+[HDI Artifact Types and Build Plug-ins Reference](https://help.sap.com/viewer/4505d0bdaf4948449b7f7379d24d0f0d/2.0.03/en-US/9789224788a34d93a86080cab993575c.html)
+
 [Migrating XS Classic Applications to XS Advanced Model](https://help.sap.com/viewer/4505d0bdaf4948449b7f7379d24d0f0d/2.0.03/en-US/efb53735dd594f91a0e70249e482a6ec.html)
 
 [Synonyms in HANA XS Advanced, Accessing Objects in an External Schema](https://blogs.sap.com/2017/01/07/synonyms-in-hana-xs-advanced-accessing-objects-in-an-external-schema/)
